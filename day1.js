@@ -1,7 +1,7 @@
 const apiGet = require('./getApiInput.js');
 
 async function main() {
-    const input = await apiGet.getInput(19);
+    const input = await apiGet.getInput(1);
 
 }
 
