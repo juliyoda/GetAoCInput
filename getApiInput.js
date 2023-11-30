@@ -6,7 +6,7 @@ module.exports = {
     async getInput(day) {
         const options = {
             method: 'GET',
-            url: `https://adventofcode.com/2020/day/${day}/input`,
+            url: `https://adventofcode.com/2023/day/${day}/input`,
             headers: {
                 Cookie: `session=${process.env.SESSION_COOKIE}`
             }
